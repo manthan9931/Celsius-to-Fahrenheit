@@ -16,12 +16,12 @@ int main(){
 	scanf("%f",&tap);
 	
 	hra = (hrap / 100) * basesalary;
-    da = (dap / 100) * basesalary;
-    ta = (tap / 100) * basesalary;
+        da = (dap / 100) * basesalary;
+        ta = (tap / 100) * basesalary;
     
-    grosssalary = basesalary + hra + da + ta;
+        grosssalary = basesalary + hra + da + ta;
 
-    printf("The gross salary is: %f", grosssalary);
+        printf("The gross salary is: %f", grosssalary);
 
     return 0;
 }
